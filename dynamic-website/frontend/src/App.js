@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import LandingPage from '../pages/LandingPage';
-import AuthPage from '../pages/AuthPage';
-import AccountPage from '../pages/AccountPage';
+import LandingPage from './LandingPage';
+import AuthPage from './AuthPage';
+import AccountPage from './AccountPage';
 
 function App() {
   return (
